@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.point {
+    position: relative;
+}
+
+.point::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: #3e6b89;
+    left: -16px;
+    top: 6px;
+    border-radius: 50%;
+
+}
+
+.ion-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 5px;
+    filter: invert(63%) sepia(43%) saturate(642%) hue-rotate(129deg) brightness(107%) contrast(82%);
+  }
+
+  ul.icon_list li {
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    max-width: 57.25rem;
+  }
